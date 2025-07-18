@@ -11,7 +11,7 @@
     justify-items: flex-start;
     justify-content: space-between;
     align-items: center;
-    background: black;
+    background: white;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -21,11 +21,11 @@
     z-index: 999;
     justify-items: flex-start;
 }
-.sidebar li{
-    width: 100%;
-}
-.sidebar a{
-    width: 100%;
+.sidebar ul li{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
 }
 .logo{
     font-size: 1.5rem;
@@ -94,11 +94,11 @@
     border-radius: 15px;
 }
 .b{
-    background-color: white;
+    background-color: black;
     text-align: center;
-
-    
 }
+
+
 .pr{
     background-color: black;
     color: white;
@@ -113,8 +113,25 @@
 }
 .ap{
     text-align: center;
-    
+    font: 1em sans-serif;
+    font-size: bold;  
+    background-color: black; 
 }
-.ph2{
+
+.b h2{
+    color: black;
+    font-size: 30px;
     font-weight: bold;
+}
+.b p{
+    font-size: 17px;
+}
+
+.m{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
 }
