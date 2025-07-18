@@ -1,67 +1,120 @@
-.header{
-    margin-left: auto;
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
 }
-nav ul{
-    width: 100px;
-    list-style-type: none;
-    display: flex;
-    text-align: center;
-    justify-content: flex-end;
-    padding left: 10px;
-    margin: 10px;
 
+.sidebar{
+
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 230px;
+    z-index: 999;
+    justify-items: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    width: 10px;
+    justify-content: fixed;
+    align-items: center;
 }
 .t{
     text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
-.t #n{
-    background-color: rgba(78,78,240);
-    color: #ffff;
+.t .n{
     width: 500px;
+    height: 40px;
+    background-color: rgb(78, 78, 240);
+    color: #ffff;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.t .n:hover{
+    background-color: skyblue;
+    opacity: 0.15s;
+    color: rgb(10, 116, 151);
+}
+.t .m{
+     width: 500px;
     height: 40px;
     border-radius: 8px;
     font-weight: bold;
-    
-
 }
-.t #n:hover{
-    background: skyblue;
-    opacity: 0.15s;
-    
-}
-.t #m:hover{
+.t .m:hover{
     background-color: lightblue;
     opacity: 0.15s;
-
 }
-.t #m{
-    width: 500px;
+.p{
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+}
+.p h1{
+    color: #ffff;
+}
+.p #g{
+    width: 120px;
     height: 40px;
     border-radius: 8px;
+    background-color:  rgb(78, 78, 240);;
+    color: white;
+}
+.p h2{
+    color: white;
+    font-size: 30px;
     font-weight: bold;
+}
+.p button{
+    width: 450px;
+    height: 200px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+.b{
+    background-color: white;
+    text-align: center;
+
     
 }
-.h1{
+.pr{
     background-color: black;
     color: white;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 17px;
+    width: 400px;
+    height: 400px;
 }
-.h1 #g{
-    width: 150px;
-    border-radius: 10px;
-    height: 50px;
+.prbutton{
     background-color: rgb(78, 78, 240);
+    width: 420px;
+    height: 400px; ;
     color: white;
-    margin-bottom: 70px;
+}
+.ap{
+    text-align: center;
+    
+}
+.ph2{
     font-weight: bold;
 }
-#g:hover{
-    background-color: rgb(105, 105, 192);
-    color: blue;
-    opacity: 0.5s;
-}
-
-   
-
